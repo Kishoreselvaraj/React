@@ -8,7 +8,7 @@ router.route("/:id").post((req,res)=>{
     res.status(200).json({message:(req.params.id )});
 });
 router.route("/:id").put((req,res)=>{
-    res.send("Updated a id"(req.params.id));
+    res.send("Updated a id");
 });
 router.route("/:id").delete((req,res)=>{
     res.send("Hi this is home page");
