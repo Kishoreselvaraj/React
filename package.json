@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "My learning ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishoreselvaraj/React.git"
+  },
+  "author": "Kishore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kishoreselvaraj/React/issues"
+  },
+  "homepage": "https://github.com/Kishoreselvaraj/React#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
