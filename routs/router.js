@@ -11,7 +11,7 @@ router.route("/:id").put((req,res)=>{
     res.send("Updated a id");
 });
 router.route("/:id").delete((req,res)=>{
-    res.send("Hi this is home page");
+    res.send("The id was deleted");
 });
 
 module.exports=router;
